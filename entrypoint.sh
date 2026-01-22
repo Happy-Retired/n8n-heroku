@@ -22,5 +22,9 @@ export DB_POSTGRESDB_DATABASE=$N8N_DB_DATABASE
 export DB_POSTGRESDB_USER=$N8N_DB_USER
 export DB_POSTGRESDB_PASSWORD=$N8N_DB_PASSWORD
 
+
+# install packages
+npm install @respond-io/n8n-nodes-respond-io
+
 # kickstart nodemation
 n8n
