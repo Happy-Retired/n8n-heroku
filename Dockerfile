@@ -5,7 +5,7 @@ USER root
 WORKDIR /home/node/packages/cli
 ENTRYPOINT []
 
-RUN npm install -g @respond-io/n8n-nodes-respond-io
+RUN npm install @respond-io/n8n-nodes-respond-io
 
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
